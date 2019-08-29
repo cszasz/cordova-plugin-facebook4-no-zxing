@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-facebook4-no-zxing",
+  "version": "4.2.2",
+  "description": "Cordova Facebook SDK 4 Plugin",
+  "cordova": {
+    "id": "cordova-plugin-facebook4-no-zxing",
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreiTelteu/cordova-plugin-facebook4-no-zxing"
+  },
+  "keywords": [
+    "cordova",
+    "facebook",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "facebook-sdk",
+    "social",
+    "sharing"
+  ],
+  "license": "Apache-2.0"
+}
