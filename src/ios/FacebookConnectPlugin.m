@@ -790,7 +790,7 @@ void FBMethodSwizzle(Class c, SEL originalSelector) {
 }
 
 // This method is a duplicate of the other openURL method below, except using the newer iOS (9) API.
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+- (BOOL)application:(UIApplication *)application openURL2:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
     if (!url) {
         return NO;
     }
@@ -813,7 +813,7 @@ void FBMethodSwizzle(Class c, SEL originalSelector) {
     return NO;
 }
 
-- (BOOL)swizzled_application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+- (BOOL)swizzled_application:(UIApplication *)application openURL2:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     if (!url) {
         return NO;
